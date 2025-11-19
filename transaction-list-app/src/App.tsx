@@ -1,5 +1,4 @@
 import TransactionList from "./pages/TransactionList";
-import UserDashboard from "./pages/UserDashboard";
 import "./styles/_main.css";
 
 function App() {
