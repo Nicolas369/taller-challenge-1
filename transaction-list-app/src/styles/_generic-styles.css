@@ -1,0 +1,54 @@
+/* Generic utility styles */
+
+/* Centers content horizontally and vertically */
+.center-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-elements_between {
+  justify-content: space-between;
+}
+
+/* Centers content horizontally */
+.center-x {
+  display: flex;
+  justify-content: center;
+}
+
+/* Centers content vertically */
+.center-y {
+  display: flex;
+  align-items: center;
+}
+
+/* Generic spacing helpers */
+.p-20 {
+  padding: 20px;
+}
+.m-20 {
+  margin: 20px;
+}
+
+/* Simple card style */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* A responsive container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
