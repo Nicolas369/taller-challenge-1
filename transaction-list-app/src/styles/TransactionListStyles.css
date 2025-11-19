@@ -1,6 +1,5 @@
 @import "./_generic-styles.css";
 
-
 .transaction-list {
     height: 75vh;
     width: 100%;
@@ -21,26 +20,4 @@
 .transaction-list-title {
     text-align: center;
     margin: 0px;
-}
-
-/* ------------------------------------------- */
-
-.transaction-container {
-    border: solid 1px #0000ff;
-    padding: 5px 15px;
-    border-radius: 8px;
-    margin: 15px;
-}
-
-.transaction-description {
-    margin: 5px 0px 10px 0px;
-    text-align: center;
-    width: fit-content;
-}
-
-.transaction-details span {
-    margin: 0px 10px;
-}
-.transaction-details li {
-    text-align: left;
 }

@@ -1,4 +1,5 @@
 import type { Transaction } from "../definitions/TransactionDefinitions";
+import "../styles/TransactionComponentStyles.css";
 
 export default function TransactionComponent({ transaction }: {transaction: Transaction}) {
     return (
