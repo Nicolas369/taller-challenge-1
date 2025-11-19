@@ -6,11 +6,11 @@ import DateFilterBarComponent from "../components/DateFilterBarComponent";
 import TransactionComponent from "../components/TransactionComponent";
 import type { Transaction } from "../definitions/TransactionDefinitions";
 
-export function filterByDate<T extends { date: string }>(
-  items: T[],
+export function filterByDate(
+  items: Transaction[],
   start: string,
   end: string
-): T[] {
+): Transaction[] {
   const startDate = start ? new Date(start).getTime() : 0;
   const endDate = end ? new Date(end).getTime() : Infinity;
 
